@@ -9,7 +9,7 @@ const couterObjOfMethods = {
   },
   decrement() {
     couterValue -= 1;
-  },
+  }
 };
 
 
