@@ -7,10 +7,6 @@ function getRandomHexColor() {
   return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
 };
 
-function getAmount() {
-  
-  createBoxes(amount);
-};
 
 function createBoxes(amount) {
   const newArr = [];
@@ -24,7 +20,7 @@ function createBoxes(amount) {
 
 function destroyBoxes() {
   boxesEl.innerHTML = "";
-}
+};
 
 
 createButtonEl.addEventListener("click", (event) => {
