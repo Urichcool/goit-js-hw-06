@@ -8,7 +8,7 @@ loginFormEl.addEventListener("submit", event => {
     window.alert("Всі поля мають бути заповненні");
     }
     else {
-    console.log(email.value, password.value);
+      console.log({ email:email.value, password:password.value });
     loginFormEl.reset();
     };
     
